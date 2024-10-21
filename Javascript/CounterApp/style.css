@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5vw;
+    user-select: none;
+}
+h1{
+    font-size: 3vw;
+}
+button{
+    padding: 0.5vw;
+    font-size: 1vw;
+    font-weight: bold;
+    border: none;
+    margin: 0 0.5vw;
+    padding: 1vw;
+    border-radius: 1vw;
+    cursor: pointer;
+
+}
