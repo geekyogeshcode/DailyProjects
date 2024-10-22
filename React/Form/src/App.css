@@ -52,3 +52,6 @@ form input{
   padding: 1vw 2vw;
   margin: 0.5vh 0;
 }
+label{
+  margin: 0 1px;
+}
