@@ -1,10 +1,9 @@
 import{useForm} from 'react-hook-form'
-import{DevTool} from '@hookform/devtools'
 import './App.css'
 
 function App() {
   const form=useForm()
-  const {register ,control,handleSubmit,formState:{errors}}=form
+  const {register ,handleSubmit,formState:{errors}}=form
 
   const onSubmitForm=(data) =>{
     console.log("Form Submited",data);
@@ -42,7 +41,6 @@ function App() {
 
             <button>Submit</button>
       </form>
-      <DevTool  control={control}/> 
      </div>
     </>
   )
